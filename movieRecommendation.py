@@ -8,7 +8,7 @@ data = pd.read_csv('movies.csv')
 movie_list = data['title'].tolist()
 recommend_list = []
 
-with open("C:/Users/krishna babu laveti/Machine Learning youtube/movie recommendation/movie_recommendation.sav", "rb") as file:
+with open("movie_recommendation.sav", "rb") as file:
     loaded_model = pickle.load(file)
 
 
