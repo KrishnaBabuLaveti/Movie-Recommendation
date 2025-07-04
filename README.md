@@ -2,6 +2,7 @@
 
 
 Movie Recommendation System:
+
 • Built a content-based and collaborative filtering recommendation engine to suggest movies based on user input.
 
 • Integrated a Streamlit-based UI for real-time suggestions using cosine similarity and genre-based filtering.
